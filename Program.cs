@@ -10,7 +10,18 @@ namespace Overriding_Operators
     {
         static void Main(string[] args)
         {
+            // Program for swapping + and - operators
 
+            Number num1 = new Number(3);
+            Number num2 = new Number(10);
+
+            Number result = num1 + num2;
+            Console.WriteLine($"{num1} + {num2} = {result}");
+
+            result = num1 - num2;
+            Console.WriteLine($"{num1} - {num2} = {result}");
+
+            Console.ReadKey();
         }
     }
 }
